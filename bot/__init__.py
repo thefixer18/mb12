@@ -69,7 +69,6 @@ if os.path.exists('authorized_chats.txt'):
 try:
     BOT_TOKEN = getConfig('BOT_TOKEN')
     parent_id = getConfig('GDRIVE_FOLDER_ID')
-    pparent_id = getConfig('PGDRIVE_FOLDER_ID')
     telegraph_token = getConfig('TELEGRAPH_TOKEN')
     DOWNLOAD_DIR = getConfig('DOWNLOAD_DIR')
     if DOWNLOAD_DIR[-1] != '/' or DOWNLOAD_DIR[-1] != '\\':
